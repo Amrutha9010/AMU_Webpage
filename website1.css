@@ -1,0 +1,192 @@
+*{
+    font-family: Arial;
+    margin:0px;
+    padding:0px;
+    color:white;
+}
+body{
+    background-image: url("https://i.postimg.cc/YqFd6KWs/1.jpg");
+    background-size: cover;
+}
+.navbar{
+    width:100%;
+    height:75px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-logo{
+    background-image: url("amu_icon.png");
+    margin-top:20px;
+    height:60px;
+    width:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    background-size: contain;
+}
+.nav-ops{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+}
+.nav-ops a{
+    text-decoration: none;
+    color:white;
+    padding-right:20px;
+    font-weight: 700;
+    padding-top: 10px;
+    margin-left: 62px;
+    transition: 0.4s ease-in-out;
+}
+.nav-ops a:hover{
+    color:orange;
+}
+.search{
+    padding:none;
+    display:flex;
+    padding-top: 20px;
+    width:350px;
+}
+.in-search{
+    height:40px;
+    width:300px;
+    background: transparent;
+    border:2px solid orange;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: none;
+    font-size: 15px;
+}
+.btn{
+    width:30%;
+    height:40px;
+    background-color: orange;
+    border:2px solid orange;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: none;
+    color:white;
+}
+.content{
+    margin-top: 130px;
+    /* font-family: 'Times New Roman'; */
+    margin-left:100px;
+    width: 1200px;
+    height: auto;
+    position:relative;
+    display:flex;
+}
+.con h1{
+    padding:5px;
+    font-size:50px;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman';
+}
+.content p{
+    margin-top:20px;
+    /* padding-bottom: 25px; */
+    letter-spacing: 1.2px;
+    line-height: 30px;;
+}
+.con-btn{
+    background-color: orange;
+    width:150px;
+    height:40px;
+    border:2px solid orange;
+    border-radius: 10px;
+    border: none;
+    margin-top:20px;
+    font-size: 20px;
+    cursor: pointer;
+    color:black;
+}
+.con-btn:hover{
+    background-color: white;
+}
+.form{
+    margin-left:500px;
+    padding:20px;
+    height:420px;
+    width:300px;
+    background-color: black;
+    border-radius: 10px;
+}
+.form-log{
+    font-family: sans-serif;
+    color:orange;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    width:280px;
+    margin:10px 20px 2px 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.form-in{
+    height:40px;
+    width:280px;
+    margin:10px 20px 20px 10px;
+    border-bottom-color:orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 10px;
+    background:transparent;
+    color:white;
+    font-size: 15px;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color:white;
+} 
+.form-btn{
+    background-color:orange;
+    height:40px;
+    width:280px;
+    margin:10px 20px 10px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color:black;
+    cursor:pointer;
+}
+.form-btn:hover{
+    background: white;
+    color:orange;
+}
+.form p{
+    height:5px;
+    width:280px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.form a{
+    color: orange;
+    text-decoration: none;
+}
+.form-p{
+    font-family:'Times New Roman';
+    /* margin-top:20px; */
+    padding-top: 20px;
+}
+.form-logo a{
+    text-decoration: none;
+} 
+.form-logo ion-icon{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    transition: 0.3s ease;
+}
+.form-logo ion-icon:hover{
+    color:orange;
+}
